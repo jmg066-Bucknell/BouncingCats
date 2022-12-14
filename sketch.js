@@ -1,17 +1,31 @@
 /*
- * This program sketch is copied from Even Peck's example at
- * https://editor.p5js.org/evanpeck/sketches/O7MjzPFxb
- * This is from my own learning.
- * Xiannong Meng
- * 2022-06-25
+ * This program sketch is copied from Xiannong Meng's example at
+ * https://editor.p5js.org/xmeng/sketches/2d1U_D7rw
+ * This is for a project in CSCI 201 Bucknell University
+ * John Glassman
+ * 2022-12-13
  *
- * Revisions
+ * Previous Revisions
  * 1. 2022-06-28: added sound file loading and playing
  *    a. The Apollo launch audio file is downloaded from
  *    https://www.nasa.gov/62282main_countdown_launch.wav
  *    which is then converted into mp3 format to be used here.
- * 2. 2022-06-28: added a textbox; check if any cat is colliding with the textbox.
- *    If so, the cat reverses the move direction.
+ * 2. 2022-06-28: added a textbox; check if any ball is colliding with the textbox.
+ *    If so, the ball reverses the move direction.
+ * My Revisions
+ * 3. 2022-12-13: added image file loading for the cats which replace the balls
+ *    a. An image of a dancing cat downloaded from
+ *    https://www.warrenphotographic.co.uk/40087-playful-tabby-kitten-dancing
+ *    The balls are replaced with images of cats.
+ * 4. 2022-12-13: added image file lading for a revese image of the cat
+      a. Image is a mirrored versions of the dancing cat downloaded from
+      https://www.warrenphotographic.co.uk/40087-playful-tabby-kitten-dancing
+ *    When the screen is clicked the cats images reverse.
+ * 5. 2022-12-13: added sound file loading and playing
+ *    a. An mp3 file of a cat meowing downloaded from 
+ *    https://orangefreesounds.com/
+ *    This sound is played every time the cat collides with a wall or box.
+ *
  */
 
 const BOX_WIDTH  = 200;  // textbox dimensions
