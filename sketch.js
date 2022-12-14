@@ -26,6 +26,12 @@
  *    https://orangefreesounds.com/
  *    This sound is played every time the cat collides with a wall or box.
  *
+ * Changes I made:
+ * 1. The balls are replaced with images of cats.
+ * 2. When the screen is clicked the cats images reverse.
+ * 3. The meow sound is played every time the cat collides with a wall or box.
+ *
+ * Link to github page is https://jmg066-bucknell.github.io/BouncingCats/
  */
 
 const BOX_WIDTH  = 200;  // textbox dimensions
